@@ -20,3 +20,12 @@ The high impedance fault (HIF) data for the IEEE 123-bus system can be downloade
 
 The user can select the HIF data from a few locations for the classification. The algorithm first processes the data and apply piecewise linear approximation to the voltage-current trajectory. Following that, the simplified function features are collected as inputs and SVM is utilized for the HIF identification.
 
+// When SVM is used for the HIF identification task, 
+// the learning output y is the fault location label (e.g., bus number), 
+// and we propose utilizing the features from the approximation functions as the input x. 
+// Specifically, for the piecewise linear approximation, 
+// the SVM input can be constructed as:
+
+// Define SVM input for piecewise linear approximation
+let x_mathcalL = [s1, s2, s3]; // x_mathcalL consists of slope rates for all segments in the piecewise linear function.
+
