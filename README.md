@@ -3,10 +3,14 @@
 
 A Data-Driven Approach for High-Impedance Fault Localization in Distribution Systems
 
-
 ## Appendix
 
 https://arxiv.org/abs/2311.15168
+
+
+## NREL Software Record
+
+SWR-24-13
 
 
 ## Usage
