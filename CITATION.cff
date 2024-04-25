@@ -1,0 +1,54 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  High Impedance Fault Localization Algorithm Using Support
+  Vector Machine
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Yuqi
+    family-names: Zhou
+    affiliation: NREL
+  - given-names: Yuqing
+    family-names: Dong
+    affiliation: NREL
+  - given-names: Rui
+    family-names: Yang
+    affiliation: NREL
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2311.15168
+  - type: other
+    value: SWR-24-13
+    description: NREL Software Record
+repository-code: 'https://github.com/openEDI/oedisi-hif-identification'
+abstract: >-
+  Accurate and quick identification of high-impedance faults
+  is critical for the reliable operation of distribution
+  systems. Unlike other faults in power grids, HIFs are very
+  difficult to detect by conventional overcurrent relays due
+  to the low fault current. Although HIFs can be affected by
+  various factors, the voltage current characteristics can
+  substantially imply how the system responds to the
+  disturbance and thus provides opportunities to effectively
+  localize HIFs. In this work, we propose a data-driven
+  approach for the identification of HIF events. To tackle
+  the nonlinearity of the voltage current trajectory, first,
+  we formulate optimization problems to approximate the
+  trajectory with piecewise functions. Then we collect the
+  function features of all segments as inputs and use the
+  support vector machine approach to efficiently identify
+  HIFs at different locations. Numerical studies on the IEEE
+  123-node test feeder demonstrate the validity and accuracy
+  of the proposed approach for real-time HIF
+  identification. 
+keywords:
+  - Systems and Control
+  - Machine Learning
+  - Distribution System Algorithms
+  - OEDISI
+license: BSD-3-Clause
